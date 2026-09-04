@@ -67,6 +67,13 @@
             border-radius: 50%;
             box-shadow: 0 0 10px #7F52FF;
         }
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .no-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
     </style>
     <style>*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/* ! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:Inter, sans-serif;font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}[type='text'],input:where(:not([type])),[type='email'],[type='url'],[type='password'],[type='number'],[type='date'],[type='datetime-local'],[type='month'],[type='search'],[type='tel'],[type='time'],[type='week'],[multiple],textarea,select{-webkit-appearance:none;appearance:none;background-color:#fff;border-color:#6b7280;border-width:1px;border-radius:0px;padding-top:0.5rem;padding-right:0.75rem;padding-bottom:0.5rem;padding-left:0.75rem;font-size:1rem;line-height:1.5rem;--tw-shadow:0 0 #0000;}[type='text']:focus, input:where(:not([type])):focus, [type='email']:focus, [type='url']:focus, [type='password']:focus, [type='number']:focus, [type='date']:focus, [type='datetime-local']:focus, [type='month']:focus, [type='search']:focus, [type='tel']:focus, [type='time']:focus, [type='week']:focus, [multiple]:focus, textarea:focus, select:focus{outline:2px solid transparent;outline-offset:2px;--tw-ring-inset:var(--tw-empty,/*!*/ /*!*/);--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:#2563eb;--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);border-color:#2563eb}input::placeholder,textarea::placeholder{color:#6b7280;opacity:1}::-webkit-datetime-edit-fields-wrapper{padding:0}::-webkit-date-and-time-value{min-height:1.5em;text-align:inherit}::-webkit-datetime-edit{display:inline-flex}::-webkit-datetime-edit,::-webkit-datetime-edit-year-field,::-webkit-datetime-edit-month-field,::-webkit-datetime-edit-day-field,::-webkit-datetime-edit-hour-field,::-webkit-datetime-edit-minute-field,::-webkit-datetime-edit-second-field,::-webkit-datetime-edit-millisecond-field,::-webkit-datetime-edit-meridiem-field{padding-top:0;padding-bottom:0}select{background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%236b7280' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M6 8l4 4 4-4'/%3e%3c/svg%3e");background-position:right 0.5rem center;background-repeat:no-repeat;background-size:1.5em 1.5em;padding-right:2.5rem;print-color-adjust:exact}[multiple],[size]:where(select:not([size="1"])){background-image:initial;background-position:initial;background-repeat:unset;background-size:initial;padding-right:0.75rem;print-color-adjust:unset}[type='checkbox'],[type='radio']{-webkit-appearance:none;appearance:none;padding:0;print-color-adjust:exact;display:inline-block;vertical-align:middle;background-origin:border-box;-webkit-user-select:none;user-select:none;flex-shrink:0;height:1rem;width:1rem;color:#2563eb;background-color:#fff;border-color:#6b7280;border-width:1px;--tw-shadow:0 0 #0000}[type='checkbox']{border-radius:0px}[type='radio']{border-radius:100%}[type='checkbox']:focus,[type='radio']:focus{outline:2px solid transparent;outline-offset:2px;--tw-ring-inset:var(--tw-empty,/*!*/ /*!*/);--tw-ring-offset-width:2px;--tw-ring-offset-color:#fff;--tw-ring-color:#2563eb;--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow)}[type='checkbox']:checked,[type='radio']:checked{border-color:transparent;background-color:currentColor;background-size:100% 100%;background-position:center;background-repeat:no-repeat}[type='checkbox']:checked{background-image:url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='white' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M12.207 4.793a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0l-2-2a1 1 0 011.414-1.414L6.5 9.086l4.293-4.293a1 1 0 011.414 0z'/%3e%3c/svg%3e");}@media (forced-colors: active) {[type='checkbox']:checked{-webkit-appearance:auto;appearance:auto}}[type='radio']:checked{background-image:url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='white' xmlns='http://www.w3.org/2000/svg'%3e%3ccircle cx='8' cy='8' r='3'/%3e%3c/svg%3e");}@media (forced-colors: active) {[type='radio']:checked{-webkit-appearance:auto;appearance:auto}}[type='checkbox']:checked:hover,[type='checkbox']:checked:focus,[type='radio']:checked:hover,[type='radio']:checked:focus{border-color:transparent;background-color:currentColor}[type='checkbox']:indeterminate{background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 16 16'%3e%3cpath stroke='white' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M4 8h8'/%3e%3c/svg%3e");border-color:transparent;background-color:currentColor;background-size:100% 100%;background-position:center;background-repeat:no-repeat;}@media (forced-colors: active) {[type='checkbox']:indeterminate{-webkit-appearance:auto;appearance:auto}}[type='checkbox']:indeterminate:hover,[type='checkbox']:indeterminate:focus{border-color:transparent;background-color:currentColor}[type='file']{background:unset;border-color:inherit;border-width:0;border-radius:0;padding:0;font-size:unset;line-height:inherit}[type='file']:focus{outline:1px solid ButtonText;outline:1px auto -webkit-focus-ring-color}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border-width:0}.fixed{position:fixed}.absolute{position:absolute}.relative{position:relative}.-bottom-6{bottom:-1.5rem}.-right-6{right:-1.5rem}.bottom-\[-10\%\]{bottom:-10%}.left-\[-10\%\]{left:-10%}.right-\[-10\%\]{right:-10%}.top-0{top:0px}.top-\[-10\%\]{top:-10%}.-z-10{z-index:-10}.z-50{z-index:50}.mx-auto{margin-left:auto;margin-right:auto}.mb-1{margin-bottom:0.25rem}.mb-10{margin-bottom:2.5rem}.mb-16{margin-bottom:4rem}.mb-2{margin-bottom:0.5rem}.mb-3{margin-bottom:0.75rem}.mb-4{margin-bottom:1rem}.mb-6{margin-bottom:1.5rem}.mb-8{margin-bottom:2rem}.ml-2{margin-left:0.5rem}.ml-4{margin-left:1rem}.mt-12{margin-top:3rem}.block{display:block}.flex{display:flex}.grid{display:grid}.hidden{display:none}.aspect-square{aspect-ratio:1 / 1}.h-10{height:2.5rem}.h-12{height:3rem}.h-16{height:4rem}.h-32{height:8rem}.h-4{height:1rem}.h-5{height:1.25rem}.h-6{height:1.5rem}.h-64{height:16rem}.h-\[40\%\]{height:40%}.h-full{height:100%}.min-h-screen{min-height:100vh}.w-10{width:2.5rem}.w-12{width:3rem}.w-32{width:8rem}.w-4{width:1rem}.w-40{width:10rem}.w-5{width:1.25rem}.w-6{width:1.5rem}.w-\[40\%\]{width:40%}.w-full{width:100%}.max-w-2xl{max-width:42rem}.max-w-4xl{max-width:56rem}.max-w-6xl{max-width:72rem}.max-w-xl{max-width:36rem}.flex-grow{flex-grow:1}.transform{transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.resize-none{resize:none}.grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.flex-col{flex-direction:column}.flex-wrap{flex-wrap:wrap}.items-end{align-items:flex-end}.items-center{align-items:center}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.gap-12{gap:3rem}.gap-16{gap:4rem}.gap-2{gap:0.5rem}.gap-4{gap:1rem}.gap-6{gap:1.5rem}.gap-8{gap:2rem}.space-x-4 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(1rem * var(--tw-space-x-reverse));margin-left:calc(1rem * calc(1 - var(--tw-space-x-reverse)))}.space-x-6 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(1.5rem * var(--tw-space-x-reverse));margin-left:calc(1.5rem * calc(1 - var(--tw-space-x-reverse)))}.space-x-8 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(2rem * var(--tw-space-x-reverse));margin-left:calc(2rem * calc(1 - var(--tw-space-x-reverse)))}.space-y-12 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(3rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(3rem * var(--tw-space-y-reverse))}.space-y-4 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1rem * var(--tw-space-y-reverse))}.space-y-5 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1.25rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1.25rem * var(--tw-space-y-reverse))}.overflow-hidden{overflow:hidden}.scroll-smooth{scroll-behavior:smooth}.rounded-2xl{border-radius:1rem}.rounded-3xl{border-radius:1.5rem}.rounded-\[2\.5rem\]{border-radius:2.5rem}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:0.5rem}.rounded-xl{border-radius:0.75rem}.border{border-width:1px}.border-b{border-bottom-width:1px}.border-l{border-left-width:1px}.border-t{border-top-width:1px}.border-brand-border{--tw-border-opacity:1;border-color:rgb(45 45 53 / var(--tw-border-opacity, 1))}.border-brand-border\/50{border-color:rgb(45 45 53 / 0.5)}.bg-black\/40{background-color:rgb(0 0 0 / 0.4)}.bg-brand-background{--tw-bg-opacity:1;background-color:rgb(15 15 19 / var(--tw-bg-opacity, 1))}.bg-brand-background\/80{background-color:rgb(15 15 19 / 0.8)}.bg-brand-primary{--tw-bg-opacity:1;background-color:rgb(127 82 255 / var(--tw-bg-opacity, 1))}.bg-brand-primary\/10{background-color:rgb(127 82 255 / 0.1)}.bg-brand-secondary\/10{background-color:rgb(159 122 234 / 0.1)}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity, 1))}.bg-white\/5{background-color:rgb(255 255 255 / 0.05)}.bg-white\/\[0\.02\]{background-color:rgb(255 255 255 / 0.02)}.fill-current{fill:currentColor}.object-cover{object-fit:cover}.p-12{padding:3rem}.p-4{padding:1rem}.p-6{padding:1.5rem}.p-8{padding:2rem}.px-2{padding-left:0.5rem;padding-right:0.5rem}.px-3{padding-left:0.75rem;padding-right:0.75rem}.px-4{padding-left:1rem;padding-right:1rem}.px-6{padding-left:1.5rem;padding-right:1.5rem}.px-8{padding-left:2rem;padding-right:2rem}.py-1{padding-top:0.25rem;padding-bottom:0.25rem}.py-12{padding-top:3rem;padding-bottom:3rem}.py-24{padding-top:6rem;padding-bottom:6rem}.py-3{padding-top:0.75rem;padding-bottom:0.75rem}.py-4{padding-top:1rem;padding-bottom:1rem}.pl-12{padding-left:3rem}.pt-16{padding-top:4rem}.pt-6{padding-top:1.5rem}.text-center{text-align:center}.font-sans{font-family:Inter, sans-serif}.text-2xl{font-size:1.5rem;line-height:2rem}.text-3xl{font-size:1.875rem;line-height:2.25rem}.text-4xl{font-size:2.25rem;line-height:2.5rem}.text-5xl{font-size:3rem;line-height:1}.text-\[10px\]{font-size:10px}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-sm{font-size:0.875rem;line-height:1.25rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-xs{font-size:0.75rem;line-height:1rem}.font-bold{font-weight:700}.font-light{font-weight:300}.font-medium{font-weight:500}.font-semibold{font-weight:600}.uppercase{text-transform:uppercase}.leading-relaxed{line-height:1.625}.tracking-\[0\.2em\]{letter-spacing:0.2em}.tracking-tight{letter-spacing:-0.025em}.tracking-wider{letter-spacing:0.05em}.tracking-widest{letter-spacing:0.1em}.text-brand-background{--tw-text-opacity:1;color:rgb(15 15 19 / var(--tw-text-opacity, 1))}.text-brand-muted{--tw-text-opacity:1;color:rgb(156 163 175 / var(--tw-text-opacity, 1))}.text-brand-primary{--tw-text-opacity:1;color:rgb(127 82 255 / var(--tw-text-opacity, 1))}.text-brand-text{--tw-text-opacity:1;color:rgb(229 231 235 / var(--tw-text-opacity, 1))}.text-brand-text\/50{color:rgb(229 231 235 / 0.5)}.text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.opacity-60{opacity:0.6}.opacity-0{opacity:0}.shadow-2xl{--tw-shadow:0 25px 50px -12px rgb(0 0 0 / 0.25);--tw-shadow-colored:0 25px 50px -12px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-lg{--tw-shadow:0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-brand-primary\/20{--tw-shadow-color:rgb(127 82 255 / 0.2);--tw-shadow:var(--tw-shadow-colored)}.outline-none{outline:2px solid transparent;outline-offset:2px}.blur-3xl{--tw-blur:blur(64px);filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.blur-\[120px\]{--tw-blur:blur(120px);filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.grayscale{--tw-grayscale:grayscale(100%);filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.backdrop-blur-md{--tw-backdrop-blur:blur(12px);-webkit-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.transition-all{transition-property:all;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.transition-colors{transition-property:color, background-color, border-color, fill, stroke, -webkit-text-decoration-color;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.transition-transform{transition-property:transform;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.duration-500{transition-duration:500ms}.selection\:bg-brand-primary *::selection{--tw-bg-opacity:1;background-color:rgb(127 82 255 / var(--tw-bg-opacity, 1))}.selection\:text-white *::selection{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.selection\:bg-brand-primary::selection{--tw-bg-opacity:1;background-color:rgb(127 82 255 / var(--tw-bg-opacity, 1))}.selection\:text-white::selection{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.hover\:border-brand-primary\/50:hover{border-color:rgb(127 82 255 / 0.5)}.hover\:bg-brand-primary:hover{--tw-bg-opacity:1;background-color:rgb(127 82 255 / var(--tw-bg-opacity, 1))}.hover\:bg-brand-primary\/90:hover{background-color:rgb(127 82 255 / 0.9)}.hover\:text-brand-primary:hover{--tw-text-opacity:1;color:rgb(127 82 255 / var(--tw-text-opacity, 1))}.hover\:text-white:hover{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.hover\:opacity-100:hover{opacity:1}.hover\:grayscale-0:hover{--tw-grayscale:grayscale(0);filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.focus\:border-brand-primary:focus{--tw-border-opacity:1;border-color:rgb(127 82 255 / var(--tw-border-opacity, 1))}.focus\:ring-1:focus{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000)}.focus\:ring-brand-primary:focus{--tw-ring-opacity:1;--tw-ring-color:rgb(127 82 255 / var(--tw-ring-opacity, 1))}.group:hover .group-hover\:scale-105{--tw-scale-x:1.05;--tw-scale-y:1.05;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.group:hover .group-hover\:bg-brand-primary\/20{background-color:rgb(127 82 255 / 0.2)}@media (min-width: 768px){.md\:mb-0{margin-bottom:0px}.md\:ml-0{margin-left:0px}.md\:flex{display:flex}.md\:hidden{display:none}.md\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.md\:grid-cols-3{grid-template-columns:repeat(3, minmax(0, 1fr))}.md\:flex-row{flex-direction:row}.md\:pl-0{padding-left:0px}.md\:pl-24{padding-left:6rem}.md\:text-2xl{font-size:1.5rem;line-height:2rem}.md\:text-7xl{font-size:4.5rem;line-height:1}}@media (min-width: 1024px){.lg\:grid-cols-6{grid-template-columns:repeat(6, minmax(0, 1fr))}}</style></head>
 
@@ -142,7 +149,7 @@
                 <div class="relative">
                     <!-- Professional Image Placeholder -->
                     <div class="aspect-square rounded-2xl overflow-hidden grayscale hover:grayscale-0 transition-all duration-500 border border-brand-border">
-                        <img alt="Jhenifer Laís Portrait" class="w-full h-full object-cover" src="#">
+                        <img alt="Jhenifer Laís Portrait" class="w-full h-full object-cover" src="assets/img/profile.jpg">
                     </div>
                     <div class="absolute -bottom-6 -right-6 w-32 h-32 bg-brand-primary/10 -z-10 rounded-full blur-3xl"></div>
                 </div>
@@ -168,7 +175,7 @@
                                 <span class="material-symbols-outlined text-sm">auto_awesome</span>
                             </div>
                         </div>
-                        <span class="font-medium text-slate-300">Localizada em Campinas, SP</span>
+                        <span class="font-medium text-slate-300">Paulínia / Campinas - SP, Brasil</span>
                     </div>
                 </div>
             </div>
@@ -245,9 +252,10 @@
                 </a>
             </div>
 
-            <div class="grid md:grid-cols-2 gap-8">
+            <div class="relative">
+            <div aria-label="Carrossel de projetos" class="flex gap-8 overflow-x-auto snap-x snap-mandatory scroll-smooth no-scrollbar pb-4" id="projects-track" tabindex="0">
                 <!-- Project 1 -->
-                <div class="glass-card p-8 rounded-3xl flex flex-col group">
+                <div class="glass-card p-8 rounded-3xl flex flex-col group cursor-pointer shrink-0 w-full md:w-[calc(50%-1rem)] snap-start" data-project-id="super-id">
                     <div class="mb-8 overflow-hidden rounded-xl border border-brand-border bg-black/40 h-64 flex items-center justify-center">
                         <img alt="App Mockup" class="w-85 shadow-2xl transform group-hover:scale-105 transition-transform duration-500" src="assets/img/bg-superid.png">
                     </div>
@@ -265,18 +273,18 @@
                             Code, aplicando boas práticas de segurança da informação para armazenamento e gerenciamento.
                         </p>
                     </div>
-                    <div class="flex gap-4 pt-6 border-t border-brand-border">
+                    <div class="flex flex-wrap gap-4 pt-6 border-t border-brand-border">
+                        <button class="view-details-btn text-sm font-medium hover:text-brand-primary transition-colors flex items-center" data-project-id="super-id" type="button">
+                            Ver Detalhes
+                        </button>
                         <a class="text-sm font-medium hover:text-brand-primary transition-colors flex items-center" href="https://github.com/JheniferLais/PI3-SuperID">
                             GitHub ↗
-                        </a>
-                        <a class="text-sm font-medium hover:text-brand-primary transition-colors flex items-center" href="#">
-                            Live Demo ↗
                         </a>
                     </div>
                 </div>
 
                 <!-- Project 2 -->
-                <div class="glass-card p-8 rounded-3xl flex flex-col group">
+                <div class="glass-card p-8 rounded-3xl flex flex-col group cursor-pointer shrink-0 w-full md:w-[calc(50%-1rem)] snap-start" data-project-id="chase">
                     <div class="mb-8 overflow-hidden rounded-xl border border-brand-border bg-black/40 h-64 flex items-center justify-center">
                         <img alt="App Mockup" class="w-85 shadow-2xl transform group-hover:scale-105 transition-transform duration-500" src="assets/img/bg-chase.png">
                     </div>
@@ -293,15 +301,56 @@
                             WebSockets de um sistema anticheat responsável por validar métricas e sessões de corrida.
                         </p>
                     </div>
-                    <div class="flex gap-4 pt-6 border-t border-brand-border">
+                    <div class="flex flex-wrap gap-4 pt-6 border-t border-brand-border">
+                        <button class="view-details-btn text-sm font-medium hover:text-brand-primary transition-colors flex items-center" data-project-id="chase" type="button">
+                            Ver Detalhes
+                        </button>
                         <a class="text-sm font-medium hover:text-brand-primary transition-colors flex items-center" href="https://github.com/JoaoGiatti/PI_IV_ES_TIME12">
                             GitHub ↗
                         </a>
-                        <a class="text-sm font-medium hover:text-brand-primary transition-colors flex items-center" href="#">
-                            Live Demo ↗
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="glass-card p-8 rounded-3xl flex flex-col group cursor-pointer shrink-0 w-full md:w-[calc(50%-1rem)] snap-start" data-project-id="sched">
+                    <div class="mb-8 overflow-hidden rounded-xl border border-brand-border bg-black/40 h-64 flex items-center justify-center">
+                        <img alt="Sched Preview" class="w-85 shadow-2xl transform group-hover:scale-105 transition-transform duration-500" src="assets/img/bg-sched.png">
+                    </div>
+                    <div class="flex-grow">
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="px-3 py-1 bg-brand-primary/10 text-brand-primary text-[10px] font-bold uppercase rounded-full">Java/Spring Boot</span>
+                            <span class="px-3 py-1 bg-brand-primary/10 text-brand-primary text-[10px] font-bold uppercase rounded-full">PostgreSQL</span>
+                            <span class="px-3 py-1 bg-brand-primary/10 text-brand-primary text-[10px] font-bold uppercase rounded-full">Python</span>
+                            <span class="px-3 py-1 bg-brand-primary/10 text-brand-primary text-[10px] font-bold uppercase rounded-full">Machine Learning</span>
+                        </div>
+                        <h4 class="text-2xl font-bold text-white mb-3">Sched</h4>
+                        <p class="text-brand-muted mb-6 leading-relaxed">
+                            Plataforma voltada para minimercados, mini padarias e pequenos comércios alimentares, que
+                            auxilia na tomada de decisão, protege o fluxo de caixa, otimiza o estoque e reduz o
+                            desperdício de alimentos por meio de previsão de demanda utilizando Inteligência
+                            Artificial / Machine Learning. Desenvolvido no contexto acadêmico de Engenharia de
+                            Software na PUC-Campinas.
+                        </p>
+                    </div>
+                    <div class="flex flex-wrap gap-4 pt-6 border-t border-brand-border">
+                        <button class="view-details-btn text-sm font-medium hover:text-brand-primary transition-colors flex items-center" data-project-id="sched" type="button">
+                            Ver Detalhes
+                        </button>
+                        <a class="text-sm font-medium hover:text-brand-primary transition-colors flex items-center" href="https://github.com/JheniferLais/PI5-SCHED">
+                            GitHub ↗
                         </a>
                     </div>
                 </div>
+            </div>
+
+            <div class="flex justify-center gap-4 mt-8">
+                <button aria-label="Projeto anterior" class="w-10 h-10 rounded-full bg-white/5 hover:bg-brand-primary/20 border border-brand-border flex items-center justify-center text-brand-muted hover:text-white transition-all" id="projects-prev" type="button">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M15 19l-7-7 7-7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+                </button>
+                <button aria-label="Próximo projeto" class="w-10 h-10 rounded-full bg-white/5 hover:bg-brand-primary/20 border border-brand-border flex items-center justify-center text-brand-muted hover:text-white transition-all" id="projects-next" type="button">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M9 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+                </button>
+            </div>
             </div>
         </div>
     </section>
@@ -377,7 +426,7 @@
                                 <div class="w-10 h-10 rounded-full bg-brand-primary/10 flex items-center justify-center">
                                     <svg class="w-5 h-5 text-brand-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path><path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
                                 </div>
-                                <span class="text-brand-text">Remoto / Campinas, SP</span>
+                                <span class="text-brand-text">Paulínia / Campinas - SP, Brasil</span>
                             </div>
                         </div>
                     </div>
@@ -420,6 +469,44 @@
 </footer>
 <!-- END: Footer -->
 
+<!-- BEGIN: Project Details Modal -->
+<div aria-hidden="true" class="fixed inset-0 z-50 hidden items-center justify-center px-4" id="project-modal">
+    <div class="absolute inset-0 bg-black/70 backdrop-blur-sm" id="project-modal-backdrop"></div>
+    <div aria-labelledby="project-modal-title" aria-modal="true" class="glass-card relative w-full max-w-2xl max-h-[85vh] overflow-y-auto bg-brand-background border border-brand-border rounded-3xl p-8 md:p-10 shadow-2xl" role="dialog">
+        <button aria-label="Fechar detalhes do projeto" class="absolute top-6 right-6 w-10 h-10 rounded-full bg-white/5 hover:bg-brand-primary/20 border border-brand-border flex items-center justify-center text-brand-muted hover:text-white transition-all" id="project-modal-close-icon" type="button">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M6 18L18 6M6 6l12 12" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+        </button>
+
+        <div class="flex flex-wrap gap-2 mb-4" id="project-modal-tags"></div>
+        <h3 class="text-3xl font-bold text-white mb-4 pr-12" id="project-modal-title"></h3>
+
+        <div class="mb-6">
+            <h4 class="text-xs font-bold text-brand-primary uppercase tracking-widest mb-2">Descrição</h4>
+            <p class="text-brand-muted leading-relaxed" id="project-modal-description"></p>
+        </div>
+
+        <div class="mb-6">
+            <h4 class="text-xs font-bold text-brand-primary uppercase tracking-widest mb-2">Objetivo</h4>
+            <p class="text-brand-muted leading-relaxed" id="project-modal-objective"></p>
+        </div>
+
+        <div class="mb-8">
+            <h4 class="text-xs font-bold text-brand-primary uppercase tracking-widest mb-2">Principais Funcionalidades</h4>
+            <ul class="space-y-2 text-brand-muted" id="project-modal-features"></ul>
+        </div>
+
+        <div class="flex flex-wrap gap-4 pt-6 border-t border-brand-border">
+            <a class="px-6 py-3 bg-brand-primary hover:bg-brand-primary/90 text-white font-medium rounded-lg transition-all shadow-lg shadow-brand-primary/20 text-sm flex items-center gap-2" href="#" id="project-modal-github" rel="noopener" target="_blank">
+                Ver Repositório no GitHub ↗
+            </a>
+            <button class="px-6 py-3 border border-brand-border hover:border-brand-primary/50 text-white font-medium rounded-lg transition-all bg-white/5 text-sm" id="project-modal-close-btn" type="button">
+                Fechar
+            </button>
+        </div>
+    </div>
+</div>
+<!-- END: Project Details Modal -->
+
 <script data-purpose="scroll-animations">
     // Simple intersection observer for reveal effects
     const observer = new IntersectionObserver((entries) => {
@@ -434,5 +521,146 @@
         section.classList.add('opacity-0');
         observer.observe(section);
     });
+</script>
+
+<script data-purpose="project-details-modal">
+    // Reusable project details modal: one source of truth for all project cards.
+    const projectsData = {
+        'super-id': {
+            name: 'Super ID',
+            tags: ['Kotlin', 'Compose', 'Firebase', 'AES-256-GCM'],
+            description: 'Gerenciador de senhas seguro desenvolvido em Kotlin, com criptografia AES-256-GCM para proteção de credenciais. O aplicativo permite autenticação em sites parceiros através de QR Code, aplicando boas práticas de segurança da informação para armazenamento e gerenciamento.',
+            objective: 'Fornecer um gerenciador de senhas seguro que permita autenticação em sites parceiros via QR Code, sem comprometer a proteção das credenciais do usuário.',
+            features: [
+                'Criptografia AES-256-GCM para proteção de credenciais',
+                'Autenticação em sites parceiros através de QR Code',
+                'Armazenamento e gerenciamento seguro de senhas',
+                'Aplicação de boas práticas de segurança da informação'
+            ],
+            github: 'https://github.com/JheniferLais/PI3-SuperID'
+        },
+        chase: {
+            name: 'Chase',
+            tags: ['Kotlin', 'Spring Boot', 'Google Maps SDK'],
+            description: 'Aplicativo de corridas desenvolvido em Kotlin, com visualização de rotas em tempo real utilizando o Google Maps SDK. Integrado a um backend em Spring Boot e comunicação via WebSockets de um sistema anticheat responsável por validar métricas e sessões de corrida.',
+            objective: 'Oferecer uma experiência de corrida com rastreamento de rota em tempo real e validação confiável das métricas registradas durante a sessão.',
+            features: [
+                'Visualização de rotas em tempo real com Google Maps SDK',
+                'Backend integrado em Spring Boot',
+                'Comunicação em tempo real via WebSockets',
+                'Sistema anticheat para validação de métricas e sessões de corrida'
+            ],
+            github: 'https://github.com/JoaoGiatti/PI_IV_ES_TIME12'
+        },
+        sched: {
+            name: 'Sched',
+            tags: ['Java', 'Spring Boot', 'PostgreSQL', 'Python', 'Flask', 'Machine Learning', 'REST API'],
+            description: 'Plataforma voltada para minimercados, mini padarias e pequenos comércios alimentares, que auxilia na tomada de decisão, protege o fluxo de caixa, otimiza o estoque e reduz o desperdício de alimentos por meio de previsão de demanda com Inteligência Artificial. Desenvolvido no contexto acadêmico de Engenharia de Software na PUC-Campinas.',
+            objective: 'Utilizar Machine Learning para gerar previsões de demanda que ajudem pequenos negócios alimentícios a tomar decisões mais informadas sobre gestão de estoque e redução de desperdício operacional.',
+            features: [
+                'Previsão de demanda utilizando Inteligência Artificial / Machine Learning',
+                'Otimização de estoque e redução de desperdício de alimentos',
+                'Apoio à tomada de decisão e proteção do fluxo de caixa',
+                'API RESTful com especificação OpenAPI 3.0',
+                'Autenticação baseada em JWT'
+            ],
+            github: 'https://github.com/JheniferLais/PI5-SCHED'
+        }
+    };
+
+    const modal = document.getElementById('project-modal');
+    const modalTitle = document.getElementById('project-modal-title');
+    const modalDescription = document.getElementById('project-modal-description');
+    const modalObjective = document.getElementById('project-modal-objective');
+    const modalFeatures = document.getElementById('project-modal-features');
+    const modalTags = document.getElementById('project-modal-tags');
+    const modalGithub = document.getElementById('project-modal-github');
+    let lastFocusedElement = null;
+
+    function openProjectModal(projectId) {
+        const project = projectsData[projectId];
+        if (!project) return;
+
+        modalTitle.textContent = project.name;
+        modalDescription.textContent = project.description;
+        modalObjective.textContent = project.objective;
+        modalGithub.href = project.github;
+
+        modalTags.innerHTML = '';
+        project.tags.forEach((tag) => {
+            const span = document.createElement('span');
+            span.className = 'px-3 py-1 bg-brand-primary/10 text-brand-primary text-[10px] font-bold uppercase rounded-full';
+            span.textContent = tag;
+            modalTags.appendChild(span);
+        });
+
+        modalFeatures.innerHTML = '';
+        project.features.forEach((feature) => {
+            const li = document.createElement('li');
+            li.className = 'flex items-start gap-2';
+            const dot = document.createElement('span');
+            dot.className = 'w-1.5 h-1.5 rounded-full bg-brand-primary mt-2 flex-shrink-0';
+            const text = document.createElement('span');
+            text.textContent = feature;
+            li.appendChild(dot);
+            li.appendChild(text);
+            modalFeatures.appendChild(li);
+        });
+
+        lastFocusedElement = document.activeElement;
+        modal.classList.remove('hidden');
+        modal.classList.add('flex');
+        modal.setAttribute('aria-hidden', 'false');
+        document.body.style.overflow = 'hidden';
+        document.getElementById('project-modal-close-icon').focus();
+    }
+
+    function closeProjectModal() {
+        modal.classList.add('hidden');
+        modal.classList.remove('flex');
+        modal.setAttribute('aria-hidden', 'true');
+        document.body.style.overflow = '';
+        if (lastFocusedElement) lastFocusedElement.focus();
+    }
+
+    document.querySelectorAll('.glass-card[data-project-id]').forEach((card) => {
+        card.addEventListener('click', (event) => {
+            if (event.target.closest('a, button')) return;
+            openProjectModal(card.dataset.projectId);
+        });
+    });
+
+    document.querySelectorAll('.view-details-btn').forEach((btn) => {
+        btn.addEventListener('click', (event) => {
+            event.stopPropagation();
+            openProjectModal(btn.dataset.projectId);
+        });
+    });
+
+    document.getElementById('project-modal-close-icon').addEventListener('click', closeProjectModal);
+    document.getElementById('project-modal-close-btn').addEventListener('click', closeProjectModal);
+    document.getElementById('project-modal-backdrop').addEventListener('click', closeProjectModal);
+    document.addEventListener('keydown', (event) => {
+        if (event.key === 'Escape' && !modal.classList.contains('hidden')) closeProjectModal();
+    });
+</script>
+
+<script data-purpose="projects-carousel">
+    // Horizontal carousel for the projects section: arrows scroll by one card width.
+    const projectsTrack = document.getElementById('projects-track');
+    const projectsPrev = document.getElementById('projects-prev');
+    const projectsNext = document.getElementById('projects-next');
+
+    function scrollProjectsBy(direction) {
+        const card = projectsTrack.querySelector('[data-project-id]');
+        if (!card) return;
+        const trackStyles = getComputedStyle(projectsTrack);
+        const gap = parseFloat(trackStyles.columnGap || trackStyles.gap || '0');
+        const amount = (card.getBoundingClientRect().width + gap) * direction;
+        projectsTrack.scrollBy({ left: amount, behavior: 'smooth' });
+    }
+
+    projectsPrev.addEventListener('click', () => scrollProjectsBy(-1));
+    projectsNext.addEventListener('click', () => scrollProjectsBy(1));
 </script>
 </body></html>
